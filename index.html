@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orientation Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <img src="img/logo.png" alt="University Logo" class="logo">
+                <span class="tagline">Your Journey Awaits</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#accreditation">Accreditation</a></li>
+                <li><a href="pages/scholarships.html">Scholarships</a></li>
+                <li><a href="#societies">Societies</a></li>
+                <li><a href="#prospectus">Prospectus</a></li>
+                <li><a href="#" data-link="regulations">Regulations</a></li>
+                <li><a href="pages/forms.html">Forms</a></li>
+                <li><a href="#" data-link="newsletter">Newsletter</a></li>
+                <li><a href="#campus-life">Campus Life</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- News Ticker -->
+    <div class="news-ticker">
+        <div class="ticker-content">
+            Capital University of Science and Technology - Orientation 2024
+        </div>
+    </div>
+    <!-- Hero Section -->
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Capital University of Science and Technology - Your Journey Awaits</h1>
+            <p class="subheadline">Mumkin he Sab Yahan</p>
+            <a href="https://cust.edu.pk/" class="cta-button">Official CUST Website</a>
+        </div>
+    </section>
+    <!-- Tabbed Component Section -->
+    <section class="tab-section">
+        <div class="tab-container">
+            <h2 class="section-heading">Discover Our University</h2> <!-- Added Heading -->
+            <ul class="tabs">
+                <li class="tab-link active" data-tab="vision">Our Vision</li>
+                <li class="tab-link" data-tab="mission">Our Mission</li>
+                <li class="tab-link" data-tab="diversity">Diversity and Inclusion</li>
+                <li class="tab-link" data-tab="experience">The Capital Experience</li>
+            </ul>
+            <div class="tab-content">
+                <div id="vision" class="tab-pane active">
+                    <p class="discover-description">To be recognized as a leading institution for transforming students
+                        as competent professionals and instrumental in societal growth.</p>
+                </div>
+                <div id="mission" class="tab-pane">
+                    <p class="discover-description">Capital University of Science and Technology, through the pursuit of
+                        excellence in an ethical and inclusive environment, is committed to developing the intellectual,
+                        professional, social, and personal skills of its student population through innovations in
+                        learning, scholarship, and creative endeavors to meet the challenges of the future.</p>
+                </div>
+                <div id="diversity" class="tab-pane">
+                    <p class="discover-description">The university is committed to creating a welcoming and inclusive
+                        community where individuals from diverse walks of life can work together to advance their
+                        education, research, and community service. We pledge to uphold the values of diversity
+                        including gender, ethnicity, compassion, mutual respect, and accountability among all members of
+                        the CUST community.</p>
+                </div>
+                <div id="experience" class="tab-pane">
+                    <p class="discover-description discover-description--last">Students choose Capital University of
+                        Science & Technology to not only become part of a prestigious community but to also benefit
+                        from:</p>
+                    <ul>
+                        <li>World-Class Faculty</li>
+                        <li>Academic Excellence</li>
+                        <li>Advanced Education Technology</li>
+                        <li>High-Impact Research</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accreditation Section -->
+    <section class="accreditation-section" id="accreditation">
+        <div class="accreditation-container">
+            <h2 class="section-heading">CUST Accredited Programs</h2> <!-- Main Heading -->
+            <p class="description">All the degree programs at Capital University of Science and Technology, Islamabad
+                are recognized by the Higher Education Commission – (HEC) Pakistan.</p>
+
+
+            <div class="card-container">
+                <!-- Card for Faculty -->
+                <div class="card">
+                    <img src="img/logos/PEC.jpg" alt="Faculty Image" class="card-image"> <!-- Faculty Image -->
+                    <div class="card-content">
+                        <h3 class="faculty-name">Faculty of Engineering</h3> <!-- Faculty Name -->
+                        <p class="programs">
+                            <strong>Programs</strong>
+                        <ul class="programs-list">
+                            <li>BS Electrical Engineering</li>
+                            <li>BS Computer Engineering</li>
+                            <li>BS Civil Engineering</li>
+                            <li>BS Mechanical Engineering</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/logos/NCEAC.jpg" alt="Faculty Image" class="card-image"> <!-- Faculty Image -->
+                    <div class="card-content">
+                        <h3 class="faculty-name">Faculty of Computing</h3> <!-- Faculty Name -->
+                        <p class="programs">
+                            <strong>Programs</strong>
+                        <ul class="programs-list">
+                            <li>BS Computer Science</li>
+                            <li>BS Mathematics</li>
+                            <li>BS Software Engineering</li>
+                            <li>BS Artificial Intelligence</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/logos/NBEAC.bmp" alt="Faculty Image" class="card-image"> <!-- Faculty Image -->
+                    <div class="card-content">
+                        <h3 class="faculty-name">Faculty of Management Sciences</h3> <!-- Faculty Name -->
+                        <p class="programs">
+                            <strong>Programs</strong>
+                        <ul class="programs-list">
+                            <li>BS Management Sciences</li>
+                            <li>BS Psychology</li>
+                            <li>BS Accounting and Finance</li>
+                            <li>BS English</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/logos/PCP.bmp" alt="Faculty Image" class="card-image"> <!-- Faculty Image -->
+                    <div class="card-content">
+                        <h3 class="faculty-name">Faculty of Pharmacy</h3> <!-- Faculty Name -->
+                        <p class="programs">
+                            <strong>Programs</strong>
+                        <ul class="programs-list">
+                            <li>Pharm. D</li>
+                            <li>Mphil Pharmacy</li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <!-- Repeat .card div for additional faculties -->
+            </div>
+        </div>
+    </section>
+    <!-- Societies Section -->
+<section id="societies">
+
+
+    <div class="container">
+        <h1 class="section-heading">Societies and Clubs</h1>
+
+        <h2 class="category-heading">CUST Societies and Clubs</h2>
+        <div class="grid-container cust-societies">
+            <div class="grid-item">
+                <h3>CUST Art & Literary Club</h3>
+                <ul>
+                    <li>Debate Competitions</li>
+                    <li>Photography</li>
+                    <li>Sketching</li>
+                    <li>Dramatics</li>
+                    <li>Poetry</li>
+                    <li>Singing</li>
+                </ul>
+            </div>
+
+            <div class="grid-item">
+                <h3>CUST Character Building Club</h3>
+                <ul>
+                    <li>Ethics</li>
+                    <li>Anti-Corruption</li>
+                    <li>Anti-Narcotics</li>
+                    <li>Character Building</li>
+                    <li>Personality Grooming</li>
+                </ul>
+            </div>
+            <div class="grid-item">
+                <h3>CUST Helping Hands</h3>
+                <ul>
+                    <li>Community Work</li>
+                    <li>Promote small scale Start-Ups</li>
+                    <li>Organize Welfare Programs (educational & health related)</li>
+                    <li>Sponsored Philanthropy Activities</li>
+                </ul>
+            </div>
+            <div class="grid-item">
+                <h3>CUST Sports Club</h3>
+                <ul>
+                    <li>To organize different inter-departmental Sports Activities</li>
+                    <li>To organize the Sports Week</li>
+                    <li>To select the University Team</li>
+                </ul>
+            </div>
+            <div class="grid-item">
+                <h3>CUST Girls Club</h3>
+                <ul>
+                    <li>To organize Girls' Sports</li>
+                    <li>Girls Seminars</li>
+                    <li>Girls Gala</li>
+                </ul>
+            </div>
+            <div class="grid-item">
+                <h3>CUST Media Club</h3>
+                <ul>
+                    <li>University Events Reporting</li>
+                    <li>Participation in CUST FM Radio Activities</li>
+                </ul>
+            </div>
+
+
+
+
+            <div class="grid-item">
+                <h3>CUST Adventure Club</h3>
+                <ul>
+                    <li>Recreational</li>
+                    <li>Hiking</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2 class="category-heading">Departmental Societies and Clubs</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>GENIX - Guidance Enthusiasm Nature Inspiration Exhibition of Right Attitude</h3>
+                <ul>
+                    <li>Awareness Campaigns</li>
+                    <li>Educational Trips</li>
+                    <li>Seminars</li>
+                    <li>Careers Counselling</li>
+                    <li>Conference</li>
+                    <li>Workshop</li>
+                    <li>Clean and Green Environment</li>
+                </ul>
+            </div>
+            <div class="grid-item">
+                <h3>Society of Accounting, Finance and Economics (SAFE)</h3>
+                <ul>
+                    <li>Organization of co-curricular activities pertaining to Accounting and Finance</li>
+                    <li>Motivation to participate in Business Analysis and Research competitions</li>
+                    <li>Motivation to make investments in Stock Market and in Future Trading</li>
+                    <li>Platform to develop Financial Analysis Culture</li>
+                </ul>
+            </div>
+            <div class="grid-item">
+                <h3>CUST ACE - Association of Civil Engineers</h3>
+                <ul>
+                    <li>Civil Engineering related Seminars/Workshops/Trainings</li>
+                    <li>Sports Activities</li>
+                    <li>Student Competitions</li>
+                    <li>Student Awareness Campaigns</li>
+                    <li>Industrial Tours</li>
+                    <li>Recreational Trips</li>
+                </ul>
+            </div>
+
+            <div class="grid-item">
+                <h3>JSPark - Jinnah Software Park</h3>
+                <ul>
+                    <li>Training/Workshops/Seminars</li>
+                    <li>Programming & Quiz Competitions</li>
+                    <li>E-Gaming Competitions</li>
+                    <li>ExcITeCup (Yearly Mega Event)</li>
+                    <li>Participation in Curricular & Co-Curricular Computing Events of other Universities</li>
+                </ul>
+            </div>
+
+            <div class="grid-item">
+                <h3>SEEK - Society of Electrical Engineers for the Advancement of Knowledge</h3>
+                <ul>
+                    <li>Technical Workshops/Seminars</li>
+                    <li>Educational Trips</li>
+                    <li>Character Building Activities</li>
+                    <li>Student Exposure and Grooming</li>
+                </ul>
+            </div>
+            <div class="grid-item">
+                <h3>CAUSE - Capital University Software Engineering</h3>
+                <ul>
+                    <li>Programming/E-Gaming Competitions</li>
+                    <li>Seminars and Industrial Trips</li>
+                    <li>Career Counseling</li>
+                    <li>Job Shadowing</li>
+                </ul>
+            </div>
+            <div class="grid-item">
+                <h3>Jinnah Management Society</h3>
+                <ul>
+                    <li>Academic, Social & Networking events</li>
+                    <li>Business and Management events</li>
+                    <li>Exposure to the Business World</li>
+                    <li>Enrich the Experience of Students</li>
+                </ul>
+            </div>
+
+            <div class="grid-item">
+                <h3>Entrepreneurship Club</h3>
+                <ul>
+                    <li>Motivation towards Entrepreneurship</li>
+                    <li>Forum for business plans competition</li>
+                    <li>Accessibility to business advice</li>
+                    <li>Mentorship, workshops and training</li>
+                </ul>
+            </div>
+            <div class="grid-item">
+                <h3>Pharma Spark</h3>
+                <ul>
+                    <li>Social Welfare Campaigns</li>
+                    <li>Festivals</li>
+                    <li>Co-curricular Activities</li>
+                    <li>Capacity Building</li>
+                    <li>Sports</li>
+                </ul>
+            </div>
+            <div class="grid-item">
+                <h3>AL-MOHANDIS</h3>
+                <ul>
+                    <li>Interpersonal and Leadership Skills</li>
+                    <li>Teaching Skills Development</li>
+                    <li>Competitions, Events, Seminars, and Industrial visits</li>
+                </ul>
+            </div>
+            <div class="grid-item">
+                <h3>SPELL</h3>
+                <ul>
+                    <li>Poetry Reading Event</li>
+                    <li>Drama Performance</li>
+                    <li>Film/Movie Aesthetic</li>
+                    <li>Students Library Magazine</li>
+                </ul>
+            </div>
+            <div class="grid-item">
+                <h3>Psyverse</h3>
+                <ul>
+                    <li>Events, Seminars & Workshops</li>
+                    <li>Extracurricular Activities</li>
+                    <li>Collaboration with other Societies</li>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+    <!-- Prospectus Section -->
+    <section id="prospectus">
+
+        <h2 class="section-heading">Prospectus</h2> <!-- Main Heading -->
+        <div class="prospectus-grid">
+            <div class="prospectus-item" data-department="prospectus/Department-of-CS.pdf">Department of Computer
+                Science</div>
+            <div class="prospectus-item" data-department="prospectus/Department-of-Math.pdf">Department of Mathematics
+            </div>
+            <div class="prospectus-item" data-department="prospectus/Department-of-SE.pdf">Department of Software
+                Engineering</div>
+            <div class="prospectus-item"
+                data-department="prospectus/Department-of-Electrical-and-Computer-Engineering.pdf">Department of
+                Electrical Engineering</div>
+            <div class="prospectus-item" data-department="prospectus/Department-of-Mechanical-Engineering.pdf">
+                Department of Mechanical Engineering</div>
+            <div class="prospectus-item" data-department="prospectus/Department-of-Civil-Engineering.pdf">Department of
+                Civil Engineering</div>
+            <div class="prospectus-item" data-department="prospectus/Department-of-Management-Sciences.pdf">Department
+                of Management Sciences</div>
+            <div class="prospectus-item" data-department="prospectus/Department-of-AF.pdf">Department of Accounting and
+                Finance</div>
+            <div class="prospectus-item" data-department="prospectus/Department-of-Psychology.pdf">Department of
+                Psychology</div>
+            <div class="prospectus-item" data-department="prospectus/Department-of-English.pdf">Department of English
+            </div>
+            <div class="prospectus-item" data-department="prospectus/Department-of-Health-and-Life-Sciences.pdf">
+                Department of Biosciences</div>
+            <div class="prospectus-item" data-department="prospectus/Department-of-Pharmacy.pdf">Department of Pharmacy
+            </div>
+            <div class="prospectus-item" data-department="prospectus/Department-of-Associate-Degree-Programs.pdf">
+                Department of Associate Programs</div>
+        </div>
+
+        <div class="popup-overlay">
+            <div class="popup-content">
+                <button class="popup-close">&times;</button>
+                <iframe id="prospectus-frame" src=""></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="campus-life">
+        <h2>Campus Life</h2>
+        <div class="video-container">
+            <video src="video/1.mp4" controls autoplay muted></video>
+        </div>
+    </section>
+
+<!-- Regulations and Newsletter Popup -->
+ <!-- Popup for Newsletter -->
+<div class="popup-overlay" id="newsletter-popup">
+    <div class="popup-content">
+        <button class="popup-close" data-popup="newsletter-popup">&times;</button>
+        <iframe id="newsletter-frame" src=""></iframe>
+    </div>
+</div>
+
+<!-- Popup for Regulations -->
+<div class="popup-overlay" id="regulations-popup">
+    <div class="popup-content">
+        <button class="popup-close" data-popup="regulations-popup">&times;</button>
+        <iframe id="regulations-frame" src=""></iframe>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="social-links">
+                <h3>Follow us on social media</h4>
+                    <div>
+                    <a href="https://www.facebook.com/capitaluniversityislamabad">
+
+                        <ion-icon name="logo-facebook" class="social-icon"></ion-icon>
+                    </a>
+                    <a href="https://www.instagram.com/capital_university/?hl=en">
+
+                        <ion-icon name="logo-instagram" class="social-icon"></ion-icon>
+                    </a>
+                    <a href="https://www.linkedin.com/school/capital-university-of-science-and-technology/mycompany/">
+
+                        <ion-icon name="logo-linkedin" class="social-icon"></ion-icon>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-section">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="https://cust.edu.pk/my-capital/vis-directorate/">VIS Directorate</a></li>
+                        <li><a href="https://cust.edu.pk/policies/">Policies</a></li>
+                        <li><a href="https://cust.edu.pk/faqs/">FAQs</a></li>
+                        <li><a href="https://cust.edu.pk/university-management/">University Management</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Offices</h4>
+                    <ul>
+                        <li><a href="https://cust.edu.pk/registrar-office/">Registrar Office</a></li>
+                        <li><a href="https://cust.edu.pk/examination-office/">Examination Office</a></li>
+                        <li><a href="https://cust.edu.pk/student-affairs-office/">Student Affairs Office</a></li>
+                        <li><a href="https://cust.edu.pk/admission-office/">Admissions Office</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Directory</h4>
+                    <ul>
+                        <li><a href="https://cust.edu.pk/directory/">Directory</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright &copy; <span id="current-year"></span> Capital University of Science and Technologies · All
+                    Rights Reserved · E-Mail: <a href="mailto:admin@cust.edu.pk">admin@cust.edu.pk</a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
